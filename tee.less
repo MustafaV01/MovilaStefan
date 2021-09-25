@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+// VARs
+@text: #ddd;
+
+// misc
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 150%;
+}
+
+html {
+    background: #222;
+    color: @text;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+    background-color: tomato;
+}
+
+body {
+    max-width: 500px;
+    width: 95%;
+    padding: 2% 0;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+h1 {
+    font-weight: normal;
+}
+
+
+
+.zeroOpacity {
+
+    opacity: 1;
+
+    &:after {
+
+        content: ' ';
+        display: inline-block;
+        border-bottom: 1px solid @text;
+        width: 10px;
+        margin-left: 0 0 0 0px;
+        animation: cursor .7s linear infinite;
+    }
+
+}
+
+
+
+.zeroOpacity2 {
+    opacity: 1;
+
+    &:after {
+        content: ' ';
+        display: inline-block;
+        border-bottom: 1px solid @text;
+        width: 10px;
+        margin-left: 0 0 0 0px;
+        animation: cursor .7s linear infinite;
+    }
+
+}
